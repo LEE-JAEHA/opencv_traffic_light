@@ -1,0 +1,1 @@
+resource = "C:/Users/years6666/Desktop/2019년_취업준비/KT/detect/222.mp4"

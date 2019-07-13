@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 import argparse
-
+from opencv_traffic_light import file_read as fr
 from matplotlib.patches import YAArrow
-resource=0
-cap = cv2.VideoCapture(resource)
+
+cap = cv2.VideoCapture(fr.resource)
 # 프레임 넓이, 높이
 width = int(cap.get(3) / 3)
 height = int(cap.get(4) / 3)
